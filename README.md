@@ -1,5 +1,6 @@
 # E-WASTE-CLASSIFIER-EMPLOYING-TEACHABLE-MACHINE-FOR-SUSTAINABLE-SOLUTIONS
 The E-Waste Classifier uses Teachable Machine to categorize electronic waste for efficient recycling, promoting sustainability and environmental responsibility.
+
 ### Project Overview
 
 This project presents an innovative e-waste analytics solution combining Teachable Machine and Streamlit to encourage responsible electronic device disposal. Users can input their old device model into an intuitive Streamlit interface, which estimates the recoverable precious metals based on the device's classification. Teachable Machine’s machine learning models help identify the devices and calculate the metal content, promoting sustainable practices. The application rewards users with credit points for proper disposal, fostering environmental responsibility and engagement in recycling programs. This project aims to integrate advanced technology and incentivize participation in e-waste management, contributing to a circular economy.
@@ -42,3 +43,38 @@ Dotenv
 ### Dataset
 
 The dataset for this project likely consists of images of various electronic devices and equipment, such as batteries, televisions, printers, mobile phones, mice, keyboards, PCBs (Printed Circuit Boards), microwaves, players, and washing machines. Each image in the dataset is labeled with the corresponding class or category of the electronic device it represents.
+
+### Execution
+Here's a step-by-step overview of the execution process for e-waste classification using Teachable Machine and a Streamlit application:
+
+<b> Data Collection: </b>
+Gather a dataset of images representing different types of e-waste items such as batteries, televisions, printers, mobile phones, etc. Ensure that the dataset is diverse and representative of the classes you want to classify.
+
+<b> Model Training with Teachable Machine: </b>
+•	Go to the Teachable Machine website or use the Teachable Machine desktop application.
+•	Upload your dataset to Teachable Machine.
+•	Label the images according to their corresponding e-waste classes.
+•	Choose a pre-trained model architecture (usually based on CNNs) provided by Teachable Machine.
+•	Train the model using the labeled images. Teachable Machine handles the training process, including data preprocessing and model optimization.
+•	Evaluate the trained model's performance and make adjustments if necessary.
+
+<b> Export Trained Model: </b>
+Once satisfied with the model's performance, export it from Teachable Machine in a format compatible with TensorFlow.js. This format allows the model to be used in web applications.
+
+<b> Streamlit Application Development: </b>
+Set up a Streamlit environment for building the web application. Write code to create the user interface (UI) of the application using Streamlit components. This UI typically includes features such as file upload buttons and classification result displays.
+
+
+<b> Integration with Trained Model: </b>
+Incorporate the exported TensorFlow.js model into the Streamlit application. This involves loading the model and defining functions to preprocess input images and make predictions using the model.
+
+<b> User Interaction: </b>
+•	Users interact with the Streamlit application by uploading images of e-waste items they want to classify.
+•	Upon uploading an image, the application preprocesses the image and feeds it into the trained model for classification.
+
+<b> Display Results: </b>
+The Streamlit application displays the classification results to the user, indicating the predicted class of the uploaded e-waste item and any additional information about its sustainability or environmental impact.
+
+<b> Further Actions: </b>
+Users may take further actions based on the classification results, such as learning about proper disposal methods or exploring ways to recycle the e-waste item.
+
