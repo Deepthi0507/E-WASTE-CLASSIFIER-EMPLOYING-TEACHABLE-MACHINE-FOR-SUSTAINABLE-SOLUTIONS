@@ -17,10 +17,15 @@ Streamlit is an open-source Python library that allows you to create interactive
 ### Objectives
 
 •	Develop a user-friendly interface using Streamlit to facilitate input of old device models.
+<Br>
 •	Train machine learning models with Teachable Machine to classify device models and estimate precious metal content.
+<Br>
 •	Implement a credit points system based on the estimated precious metal recovery.
+<Br>
 •	Integrate the Teachable Machine models and credit points system into the Streamlit application.
+<Br>
 •	Test the application for accuracy, usability, and functionality.
+<Br>
 •	Deploy the application for public use and monitor user engagement and feedback.
 
 
@@ -52,10 +57,15 @@ Gather a dataset of images representing different types of e-waste items such as
 
 <b> Model Training with Teachable Machine: </b>
 •	Go to the Teachable Machine website or use the Teachable Machine desktop application.
+<Br>
 •	Upload your dataset to Teachable Machine.
+<Br>
 •	Label the images according to their corresponding e-waste classes.
+<Br>
 •	Choose a pre-trained model architecture (usually based on CNNs) provided by Teachable Machine.
+<Br>
 •	Train the model using the labeled images. Teachable Machine handles the training process, including data preprocessing and model optimization.
+<Br>
 •	Evaluate the trained model's performance and make adjustments if necessary.
 
 <b> Export Trained Model: </b>
@@ -70,6 +80,7 @@ Incorporate the exported TensorFlow.js model into the Streamlit application. Thi
 
 <b> User Interaction: </b>
 •	Users interact with the Streamlit application by uploading images of e-waste items they want to classify.
+<Br>
 •	Upon uploading an image, the application preprocesses the image and feeds it into the trained model for classification.
 
 <b> Display Results: </b>
@@ -77,4 +88,13 @@ The Streamlit application displays the classification results to the user, indic
 
 <b> Further Actions: </b>
 Users may take further actions based on the classification results, such as learning about proper disposal methods or exploring ways to recycle the e-waste item.
+
+![image](https://github.com/user-attachments/assets/4d0e144b-6d22-404f-b238-ae7c5b8aeb2d)
+![image](https://github.com/user-attachments/assets/11a5df43-5ed4-4f83-af0a-d2ae96e1ed56)
+![image](https://github.com/user-attachments/assets/615ac4ec-209d-4423-b9be-f1cd6715509b)
+![image](https://github.com/user-attachments/assets/cafe245f-68ef-4d60-a102-311817d5a8f1)
+
+
+
+
 
